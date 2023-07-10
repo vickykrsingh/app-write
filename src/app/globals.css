@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-gray-400
+}
+.cust-input{
+  @apply p-1 outline-none border-none bg-gray-400 text-gray-700
+}
+.cust-button{
+  @apply bg-gray-600 hover:bg-gray-700 duration-200 p-2 my-10
+}
